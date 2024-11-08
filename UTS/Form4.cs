@@ -57,7 +57,9 @@ namespace UTS
 
         internal void AddMahasiswa(Mahasiswa mahasiswa)
         {
-            throw new NotImplementedException();
+             list.Add(mahasiswa); 
+             dataGridView1.DataSource = null; 
+             dataGridView1.DataSource = list; 
         }
     }
 
