@@ -18,7 +18,7 @@
             {
                 nama = textBox1.Text,
                 email = textBox2.Text,
-                no_hp = int.Parse(textBox3.Text),
+                no_hp = textBox3.Text
                
             };
 
