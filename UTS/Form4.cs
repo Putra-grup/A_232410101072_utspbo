@@ -21,7 +21,7 @@ namespace UTS
             Mahasiswa mahasiswa = new Mahasiswa();
             mahasiswa.nama = "Putra";
             mahasiswa.email = "Putra@example.com";
-            mahasiswa.no_hp = 3;
+            mahasiswa.no_hp = "082228950022";
             list.Add(mahasiswa);
     
 
@@ -67,6 +67,6 @@ namespace UTS
     {
         public string nama { get; set; }
         public string email { get; set; }
-        public int no_hp { get; set; } 
+        public string no_hp { get; set; } 
     }
 }
